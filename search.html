@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="sv">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="img/favicon.ico" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
-    <title>Linköpings bibliotek</title>
-  </head>
-  <body>
-    <header>
-      <h1>Välkommen till Linköpings bibliotek</h1>
-      <table>
-        <tr>
-            <td><a href="index.html">Start</a></td>
-            <td><a href="search.html"><strong>Sök bok</strong></a></td>
-          <td><a href="about.html">Om oss</a></td>
-          <td>
-            <a href="index.html#boktips" class="chosenbooks">Utvalda böcker</a>
-          </td>
-        </tr>
-      </table>
-    </header>
-    <h2>Sök bok</h2>
-    <p>Var vänlig skriv boken du söker efter</p>
-    <form action="index.html" method="get">
-      <input type="text" name="booksearch" />
-      <input type="submit" name="Sök" value="Sök bok" />
-    </form>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Linköpings bibliotek</title>
+</head>
+
+<body>
+  <header>
+    <h1>Välkommen till Linköpings bibliotek</h1>
+    <table>
+      <tr>
+        <td><a href="index.html">Start</a></td>
+        <td>
+          <a href="search.html"><strong>Sök bok</strong></a>
+        </td>
+        <td><a href="about.html">Om oss</a></td>
+        <td>
+          <a href="index.html#boktips" class="chosenbooks">Utvalda böcker</a>
+        </td>
+      </tr>
+    </table>
+  </header>
+  <h2>Sök bok</h2>
+  <p>Var vänlig skriv boken du söker efter</p>
+  <form action="index.html" method="get">
+    <input type="text" name="booksearch" />
+    <input type="submit" name="Sök" value="Sök bok" />
+  </form>
+</body>
+
 </html>

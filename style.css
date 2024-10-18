@@ -1,11 +1,11 @@
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 .chosenbooks {
-  color: red;
+    color: red;
 }
 
-a:hover{
+a:hover {
     font-size: 18px;
 }
