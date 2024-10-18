@@ -27,8 +27,10 @@
   </header>
   <h2>Sök</h2>
   <p>Var vänlig skriv boken du söker efter</p>
-  <form action="index.html" method="get">
-    <input type="text" name="booksearch" placeholder="Sök efter bok">
+  <form action="" method="get" onsubmit="window.location.href='db/'+document.getElementById('isbn').value + '.html'; return false;">
+    
+    <label for="isbn">ISBN</label>
+    <input type="text" name="booksearch" placeholder="Sök efter bok" id="isbn">
     <input type="submit" name="Sök" value="Sök">
   </form>
 </body>
