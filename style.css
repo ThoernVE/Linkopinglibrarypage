@@ -9,3 +9,12 @@ html {
 a:hover {
     font-size: 18px;
 }
+
+td{
+    padding: 5px;
+}
+
+#map{
+    display: none;
+}
+
