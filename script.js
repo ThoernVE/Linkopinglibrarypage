@@ -4,13 +4,13 @@ function OpenMap()
 {
     const form = document.getElementById("map");
 
-    if (form.style.display=="none")
+    if (form.style.display=="flex")
     {
-        form.style.display="flex";
-        button.innerHTML="Stäng";
-    }
-    else{
         form.style.display="none";
         button.innerHTML="Öppna karta";
+    }
+    else{
+        form.style.display="flex";
+        button.innerHTML="Stäng";
     }
 }
