@@ -35,7 +35,7 @@ function translationSwitchCase(weatherENG)
             break;
 
         case "thunderstorm":
-             weatherText.innerHTML = "åskväder"
+             weatherText.innerHTML = "åskväder";
              break;
 
         case "heavy thunderstorm":
@@ -214,28 +214,28 @@ function translationSwitchCase(weatherENG)
             weatherText.innerHTML = "klara skyar";
             break;
 
-        case "few clouds: 11-25%":
-            weatherText.innerHTML = "några moln: 11-25%";
+        case "few clouds":
+            weatherText.innerHTML = "några moln";
             break;
 
-        case "scattered clouds: 25-50%":
-            weatherText.innerHTML = "spridda moln: 25-50%";
+        case "scattered clouds":
+            weatherText.innerHTML = "spridda moln";
             break;
 
-        case "broken clouds: 51-84%":
-            weatherText.innerHTML = "brutna moln: 51-84%";
+        case "broken clouds":
+            weatherText.innerHTML = "brutna moln";
             break;
 
-         case "overcast clouds: 85-100%":
-            weatherText.innerHTML = "brutna moln: 51-84%";
+         case "overcast clouds":
+            weatherText.innerHTML = "brutna moln";
             break;
 
-        case "overcast clouds: 85-100%":
-            weatherText.innerHTML = "mulna moln: 85-100% ";
+        case "overcast clouds":
+            weatherText.innerHTML = "mulna moln ";
             break;
 
         default:
-            weatherText.innerHTML = "weatherservice is offline"
+            weatherText.innerHTML = "weatherservice is offline";
             break;
 
 
