@@ -22,3 +22,20 @@ function OpenMap() {
     }
 }
 
+function fetchISSPosition() {
+    console.log("start");
+    fetch("http://api.open-notify.org/iss-now.json")
+        .then(response => response.json())
+        .then(data => {
+            const { latitude, longitude } = data.iss_position;
+            document.getElementById("iss-position").innerText = `Latitude: ${latitude}, Longitude: ${longitude}`;
+        })
+        .catch(error => {
+            document.getElementById("iss-position").innerText = "Failed to fetch ISS Position.";
+            console.error("Error fetching data:", error);
+        })
+    console.log("slut");
+}
+
+
+fetchISSPosition();
